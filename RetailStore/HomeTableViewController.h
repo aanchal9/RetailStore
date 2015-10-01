@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HomeTableViewController.h
 //  RetailStore
 //
 //  Created by Aanchal Arora on 29/07/15.
@@ -7,12 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "GlobalObjects.h"
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface HomeTableViewController : UITableViewController
 
 @end
-
